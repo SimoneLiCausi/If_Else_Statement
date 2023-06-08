@@ -1,0 +1,17 @@
+package co.develhope.introduction._ifElse;
+
+public class if_Else_Statement {
+    public static void main(String[] args) {
+
+        String myName = "Simone";
+
+        double myName2 = myName.length();
+
+        if(myName2 % 2 == 0) {
+            System.out.println("My lenght's name is Even");
+        } else {
+            System.out.println("My lenght's name is Odd");
+
+        }
+    }
+}
